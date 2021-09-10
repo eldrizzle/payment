@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylepayment.css">
+</head>
+<body>
+     <div class="container">
+    <h1 id="head">Payment Form</h1>
+    <hr>
+    <h2>User Information</h2>
+    <span> Name :</span>
+   
+    <input type="text" name="name" placeholder="Rajat Chaudhary" id="input">
+
+    <fieldset id="gender">
+        <legend>Gender</legend>
+        <span> Male <input type="radio" name="gender" id=""></span>
+      
+      <span>Female <input type="radio" name="gender" id=""></span>  
+       
+
+        <span> Other <input type="radio" name="gender" id=""></span>
+    </fieldset>
+    <fieldset>
+        <legend>Address:</legend>
+        <textarea placeholder="Address" name="" id="" cols="70" rows="10"></textarea>
+        
+    </fieldset>
+
+   <span>Email:</span>
+    <input placeholder="xyz@gmail.com" type="email" name="" id="">
+    <span>Pincode:</span>
+    <input placeholder="2203245" type="number" name="" id="">
+
+
+    <h1>Payment Information</h1>
+    <h3>Accepted Cards</h3>
+    <div id="cardphoto">
+        <img src="rupay.jpg" alt="">
+        
+
+    </div>
+    <span>Card Type:</span>
+    <select name="cardtype" id="">
+     <option value="">--Select Card Type--</option>
+     <option value="">Visa</option>
+     <option value="">Maestro</option>
+     <option value="">Master Card</option>
+     <option value="">American Express</option>
+
+    </select>
+
+    <span>Expiray Date:</span>
+    <input type="date" name="" id=""> <br><br>
+    <span>CVV</span>
+    <input placeholder="254" type="password" name="" id="">
+    <br>
+    <button>Pay Now</button>
+
+
+</div>
+    
+
+
+
+
+    
+</body>
+</html>
